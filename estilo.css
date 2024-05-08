@@ -1,0 +1,21 @@
+.base{
+    background-color: rgb(163, 163, 163);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 2px;
+    left: 42%;
+    bottom: 42%;
+    width: 200px;
+    height: 100px;
+    padding: 60px;
+}
+
+fieldset{
+    border: 2px rgba(0, 0, 0, 0.418) solid;
+}
+
+#favcolor{
+    display: block;
+}

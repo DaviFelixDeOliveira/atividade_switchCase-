@@ -1,23 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Switch Case</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-
-    <form action="script.php" method="post">
-        <label for="favcolor"> Escolha sua cor favorita</label>
-        <select name="favcolor" id="favcolor">
-            <option value="nul">NÃO SELECIONADÃO</option>
-            <option value="vermelho">Vermelho</option>
-            <option value="azul">Azul</option>
-            <option value="verde">Verde</option>
-        </select>
-        <button type="submit">Enviar</button>
-    </form>
-    
-    
+<div class="formulãrio">
+    <div class="base">
+        <form action="script.php" method="post">
+            <fieldset>
+                <legend> 
+                    ►►►
+                </legend>
+            <label for="favcolor"> Escolha sua cor favorita</label>
+            <select name="favcolor" id="favcolor">
+                <optgroup label="SELECIONE UMA COR">
+                    <option value="nul">NÃO SELECIONADA</option>
+                    <option value="vermelho">Vermelho</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                </optgroup>
+            </select>
+            <button type="submit">Enviar</button>
+        </fieldset>
+        </form>
+    </div>
+</div>
 </body>
 </html>
