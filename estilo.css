@@ -1,21 +1,74 @@
-.base{
-    background-color: rgb(163, 163, 163);
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 2px;
-    left: 42%;
-    bottom: 42%;
-    width: 200px;
-    height: 100px;
-    padding: 60px;
-}
-
-fieldset{
-    border: 2px rgba(0, 0, 0, 0.418) solid;
-}
-
-#favcolor{
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .formulãrio {
+    margin-top: 50px;
+  }
+  
+  .base {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  legend {
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  label {
     display: block;
-}
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  @keyframes example {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animation:hover {
+    animation: example 2s infinite;
+    cursor: pointer;
+  }
+  
+  body, label, select, button {
+    text-transform: uppercase;
+  }
+
